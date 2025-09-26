@@ -1,0 +1,150 @@
+/* Root Variables (Light Theme) */
+:root {
+  --font-size: 14px;
+  --background: #ffffff;
+  --foreground: #252525;
+  --card: #ffffff;
+  --card-foreground: #252525;
+  --popover: #ffffff;
+  --popover-foreground: #252525;
+  --primary: #030213;
+  --primary-foreground: #ffffff;
+  --secondary: #f0f0f5;
+  --secondary-foreground: #030213;
+  --muted: #ececf0;
+  --muted-foreground: #717182;
+  --accent: #e9ebef;
+  --accent-foreground: #030213;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(0, 0, 0, 0.1);
+  --input: transparent;
+  --input-background: #f3f3f5;
+  --switch-background: #cbced4;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #b4b4b4;
+  --radius: 0.625rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #252525;
+}
+
+/* Dark Theme */
+.dark {
+  --background: #252525;
+  --foreground: #ffffff;
+  --card: #252525;
+  --card-foreground: #ffffff;
+  --popover: #252525;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;
+  --primary-foreground: #252525;
+  --secondary: #434343;
+  --secondary-foreground: #ffffff;
+  --muted: #434343;
+  --muted-foreground: #b4b4b4;
+  --accent: #434343;
+  --accent-foreground: #ffffff;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: #434343;
+  --input: #434343;
+  --ring: #707070;
+  --sidebar: #252525;
+  --sidebar-foreground: #ffffff;
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+}
+
+html {
+  font-size: var(--font-size);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, sans-serif;
+}
+
+/* Typography */
+h1 {
+  font-size: 2rem;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+h4,
+label,
+button {
+  font-size: 1rem;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+p,
+input {
+  font-size: 1rem;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+/* Buttons */
+button {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+  background-color: var(--input-background);
+  color: var(--foreground);
+  border-radius: var(--radius);
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+}
+
+/* Cards */
+.card {
+  background-color: var(--card);
+  color: var(--card-foreground);
+  padding: 1rem;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Popovers / Modals */
+.popover {
+  background-color: var(--popover);
+  color: var(--popover-foreground);
+  padding: 1rem;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
