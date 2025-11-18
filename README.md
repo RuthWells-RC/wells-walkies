@@ -50,6 +50,9 @@ v1.0 — Initial Release
 •	- Added services cards
 •	- Added navigation on all pages
 
+
+
+
 🔗 GitHub Repository
 [https://github.com/YourGitHubUsername/wells-walkies](https://github.com/RuthWells-RC/wells-walkies/tree/main)
 
@@ -57,6 +60,10 @@ v1.0 — Initial Release
 
 
 🖼 Images Used in the POE
+
+
+
+
 Image: https://github.com/user-attachments/assets/7ed21fbe-113e-4862-9638-f8b9b79350f2
 Image: https://github.com/user-attachments/assets/80629134-7fb0-4333-81e7-6d9289963afc
 Image: https://github.com/user-attachments/assets/5066e17e-fa3d-4c58-b835-528ee4adf678
