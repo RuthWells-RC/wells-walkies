@@ -4,137 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wells Walkies - Contact</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body
-    class="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50"
-  >
-    <!-- Header -->
-    <header
-      class="bg-white/90 backdrop-blur-md border-b border-orange-200 sticky top-0 z-50"
-    >
-      <div
-        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20"
-      >
-        <a href="home.html" class="flex items-center space-x-4">
-          <img
-            src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
-            alt="Wells Walkies Logo"
-            class="w-16 h-16 rounded-full shadow-md"
-          />
-          <div>
-            <h1 class="text-2xl font-bold text-orange-600">Wells Walkies</h1>
-            <p class="text-xs text-amber-700">Premium Dog Care</p>
-          </div>
-        </a>
-        <nav class="hidden md:flex space-x-8">
-          <a
-            href="home.html"
-            class="text-amber-700 hover:text-orange-600 font-medium"
-            >Home</a
-          >
-          <a
-            href="services.html"
-            class="text-amber-700 hover:text-orange-600 font-medium"
-            >Services</a
-          >
-          <a
-            href="about.html"
-            class="text-amber-700 hover:text-orange-600 font-medium"
-            >About</a
-          >
-          <a
-            href="reviews.html"
-            class="text-amber-700 hover:text-orange-600 font-medium"
-            >Reviews</a
-          >
-          <a href="contact.html" class="text-orange-600 font-medium">Contact</a>
-        </nav>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://via.placeholder.com/40?text=Logo"
+          alt="Wells Walkies Logo"
+        />
+        <h2>Wells Walkies</h2>
       </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="book.html" class="book-now">Book Now</a>
     </header>
 
-    <!-- Contact Hero -->
-    <section class="py-24 text-center">
-      <h2 class="text-4xl lg:text-5xl font-bold text-amber-900 mb-6">
-        Get in Touch
-      </h2>
-      <p class="text-xl text-amber-700 max-w-3xl mx-auto mb-12">
-        Whether it’s booking a walk, asking a question, or saying hello, we’d
-        love to hear from you!
-      </p>
-
-      <!-- Contact Form -->
-      <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg p-8">
-        <form action="#" method="POST" class="space-y-6">
-          <div>
-            <label for="name" class="block text-amber-700 font-semibold mb-2"
-              >Name</label
-            >
-            <input
-              type="text"
-              id="name"
-              name="name"
-              required
-              class="w-full border border-orange-300 rounded-lg px-4 py-2 focus:ring-orange-400 focus:border-orange-400"
-            />
-          </div>
-          <div>
-            <label for="email" class="block text-amber-700 font-semibold mb-2"
-              >Email</label
-            >
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              class="w-full border border-orange-300 rounded-lg px-4 py-2 focus:ring-orange-400 focus:border-orange-400"
-            />
-          </div>
-          <div>
-            <label for="message" class="block text-amber-700 font-semibold mb-2"
-              >Message</label
-            >
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              required
-              class="w-full border border-orange-300 rounded-lg px-4 py-2 focus:ring-orange-400 focus:border-orange-400"
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-            class="bg-gradient-to-r from-orange-500 to-amber-600 hover:from-orange-600 hover:to-amber-700 text-white px-6 py-3 rounded-lg font-bold"
-          >
-            Send Message
-          </button>
-        </form>
-      </div>
-
-      <!-- Contact Info -->
-      <div class="mt-16 text-amber-700">
+    <section class="contact">
+      <h2>Get in Touch</h2>
+      <p>Have questions or need more information? Feel free to reach out!</p>
+      <div class="contact-info">
+        <p><strong>Email:</strong> info@wellswalkies.com</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
         <p>
-          📞 Phone:
-          <a href="tel:0659329535" class="text-orange-600 font-semibold"
-            >065 932 9535</a
-          >
+          <strong>Address:</strong> 123 Dog Park Lane, Georgetown, Washington DC
+          20007
         </p>
-        <p>
-          📧 Email:
-          <a
-            href="mailto:info@wellswalkies.co.za"
-            class="text-orange-600 font-semibold"
-            >info@wellswalkies.co.za</a
-          >
-        </p>
-        <p>📍 Location: Benoni, South Africa</p>
       </div>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-amber-900 text-white py-16 text-center">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p>© 2025 Wells Walkies • Premium Dog Care</p>
+    <footer>
+      <p>&copy; 2023 Wells Walkies. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // JavaScript for Form Submission (simulated)
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert("Message sent! We will get back to you soon.");
+        });
+    </script>
+  </body>
+<footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: info@wellswalkies.com</p>
+          <p>Phone: (123) 456-7890</p>
+          <p>Address: 123 Dog Park Lane, Georgetown, Washington DC 20007</p>
+        </div>
+        <div class="footer-section social">
+          <h3>Follow Us</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter/X</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 Wells Walkies. All rights reserved.</p>
       </div>
     </footer>
   </body>

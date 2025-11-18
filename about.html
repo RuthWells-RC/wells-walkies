@@ -4,188 +4,113 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wells Walkies - About</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              orange: {
-                50: "#fef7ed",
-                100: "#fed7aa",
-                200: "#fdba74",
-                300: "#fb923c",
-                400: "#f97316",
-                500: "#f97316",
-                600: "#ea580c",
-                700: "#c2410c",
-                800: "#9a3412",
-                900: "#7c2d12",
-              },
-              amber: {
-                50: "#fef3c7",
-                100: "#fde68a",
-                200: "#fcd34d",
-                300: "#fbbf24",
-                400: "#f59e0b",
-                500: "#d97706",
-                600: "#d97706",
-                700: "#b45309",
-                800: "#92400e",
-                900: "#78350f",
-              },
-            },
-          },
-        },
-      };
-    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
-  <body
-    class="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50"
-  >
-    <!-- Header -->
-    <header
-      class="bg-white/90 backdrop-blur-md border-b border-orange-200 sticky top-0 z-50"
-    >
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center h-20">
-          <a href="home.html" class="flex items-center space-x-4">
-            <img
-              src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400"
-              alt="Wells Walkies Logo"
-              class="w-16 h-16 rounded-full shadow-md"
-            />
-            <div>
-              <h1 class="text-2xl font-bold text-orange-600">Wells Walkies</h1>
-              <p class="text-xs text-amber-700">Premium Dog Care</p>
-            </div>
-          </a>
-          <nav class="hidden md:flex space-x-8">
-            <a
-              href="home.html"
-              class="text-amber-700 hover:text-orange-600 font-medium"
-              >Home</a
-            >
-            <a
-              href="services.html"
-              class="text-amber-700 hover:text-orange-600 font-medium"
-              >Services</a
-            >
-            <a href="about.html" class="text-orange-600 font-medium">About</a>
-            <a
-              href="reviews.html"
-              class="text-amber-700 hover:text-orange-600 font-medium"
-              >Reviews</a
-            >
-            <a
-              href="contact.html"
-              class="text-amber-700 hover:text-orange-600 font-medium"
-              >Contact</a
-            >
-          </nav>
-        </div>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://via.placeholder.com/40?text=Logo"
+          alt="Wells Walkies Logo"
+        />
+        <h2>Wells Walkies</h2>
       </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="book.html" class="book-now">Book Now</a>
     </header>
 
-    <!-- About Hero -->
-    <section class="py-24 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-4xl lg:text-5xl font-bold text-amber-900 mb-6">
-          Meet Wells
-        </h2>
-        <p class="text-xl text-amber-700 max-w-3xl mx-auto leading-relaxed">
-          With over 7 years of experience caring for dogs of all breeds, Wells
-          combines passion, expertise, and a personal touch to make every dog
-          feel safe and loved.
+    <section class="best-friend">
+      <div class="best-friend-text">
+        <h2>Your Dog's New Best Friend</h2>
+        <p>
+          With over 7 years of professional experience and a genuine passion for
+          animal welfare, I treat every dog like my own.
         </p>
+        <ul>
+          <li><i class="fas fa-id-badge"></i> Fully Licensed</li>
+          <li><i class="fas fa-medkit"></i> Pet First Aid</li>
+          <li><i class="fas fa-star"></i> Top-Rated & Certified</li>
+          <li>
+            <i class="fas fa-calendar-check"></i> Flexible in 7 days a week
+          </li>
+        </ul>
+        <a href="book.html" class="book-now">Get to Know Me</a>
       </div>
-    </section>
-
-    <!-- Core Values -->
-    <section class="py-16 bg-orange-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h3 class="text-3xl font-bold text-amber-900 mb-12">Core Values</h3>
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div class="bg-white rounded-2xl shadow-lg p-6">
-            <h4 class="text-2xl font-bold text-orange-600 mb-2">
-              Safety First
-            </h4>
-            <p class="text-amber-700">
-              Every walk and service prioritizes your dog's safety above all
-              else.
-            </p>
-          </div>
-          <div class="bg-white rounded-2xl shadow-lg p-6">
-            <h4 class="text-2xl font-bold text-orange-600 mb-2">
-              Individual Attention
-            </h4>
-            <p class="text-amber-700">
-              Tailored care for each dog's unique needs and personality.
-            </p>
-          </div>
-          <div class="bg-white rounded-2xl shadow-lg p-6">
-            <h4 class="text-2xl font-bold text-orange-600 mb-2">
-              Professional Excellence
-            </h4>
-            <p class="text-amber-700">
-              Certified, experienced, and dedicated to high-quality dog care.
-            </p>
-          </div>
-          <div class="bg-white rounded-2xl shadow-lg p-6">
-            <h4 class="text-2xl font-bold text-orange-600 mb-2">
-              Reliable Service
-            </h4>
-            <p class="text-amber-700">
-              Consistent, dependable care you and your dog can count on.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Experience & Story -->
-    <section class="py-24 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <h3 class="text-3xl font-bold text-amber-900 mb-6">My Journey</h3>
-          <p class="text-xl text-amber-700 max-w-3xl mx-auto leading-relaxed">
-            Starting from volunteering at animal shelters to becoming a trusted
-            dog walker in the community, Wells has built a career around love
-            for dogs and professionalism.
+      <img
+        src="https://thumbs.dreamstime.com/b/dogs-streets-leash-man-professional-dog-walker-smiling-148127005.jpg"
+        alt="Professional Dog Walker"
+      />
+      <div class="values">
+        <div class="value">
+          <i class="fas fa-shield-alt icon"></i>
+          <h3>Safety First</h3>
+          <p>
+            Your dog's safety is my priority. Trained in pet first aid and
+            always cautious.
           </p>
         </div>
-
-        <!-- Timeline -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-orange-50 rounded-2xl shadow-lg p-6 text-center">
-            <h4 class="text-xl font-bold text-orange-600 mb-2">2016</h4>
-            <p class="text-amber-700">
-              Volunteered at local animal sanctuary, learning care and behavior
-              understanding.
-            </p>
-          </div>
-          <div class="bg-orange-50 rounded-2xl shadow-lg p-6 text-center">
-            <h4 class="text-xl font-bold text-orange-600 mb-2">2018</h4>
-            <p class="text-amber-700">
-              Started professional dog walking and pet sitting services in the
-              community.
-            </p>
-          </div>
-          <div class="bg-orange-50 rounded-2xl shadow-lg p-6 text-center">
-            <h4 class="text-xl font-bold text-orange-600 mb-2">2024</h4>
-            <p class="text-amber-700">
-              Trusted by over 350 dog families with over 2,500 miles walked and
-              10,000+ photos shared.
-            </p>
-          </div>
+        <div class="value">
+          <i class="fas fa-user-check icon"></i>
+          <h3>Individual Attention</h3>
+          <p>Every dog gets personalized care based on their unique needs.</p>
+        </div>
+        <div class="value">
+          <i class="fas fa-briefcase icon"></i>
+          <h3>Professional Experience</h3>
+          <p>Continuous education to provide the highest quality care.</p>
+        </div>
+        <div class="value">
+          <i class="fas fa-certificate icon"></i>
+          <h3>Certifications & Training</h3>
+          <p>National Pet Care Certification, etc.</p>
         </div>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-amber-900 text-white py-16 text-center">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p>© 2025 Wells Walkies • Premium Dog Care</p>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: info@wellswalkies.com</p>
+          <p>Phone: (123) 456-7890</p>
+          <p>Address: 123 Dog Park Lane, Georgetown, Washington DC 20007</p>
+        </div>
+        <div class="footer-section social">
+          <h3>Follow Us</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter/X</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 Wells Walkies. All rights reserved.</p>
       </div>
     </footer>
   </body>
