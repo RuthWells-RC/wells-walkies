@@ -1,5 +1,6 @@
 Wells Walkies Website
-Multi-page website created for POE submission. This document includes all the key sections, features, project structure, and images used in the POE. GitHub repository link is provided as a placeholder.
+
+Multi-page website created for POE submission. This document includes all the key sections, features, project structure, and images used in the POE. The GitHub repository link is provided as a placeholder.
 📌 Pages Included
 •	- Home
 •	- Services
@@ -27,14 +28,17 @@ Multi-page website created for POE submission. This document includes all the ke
 •	- Responsive navigation bar
 •	- Image gallery
 •	- External CSS + JS
+
 🧪 How to Run the Project
 1.	Download the folder
 2.	Open home.html in any browser
 3.	Navigate using the menu bar
+   
 🛠 Languages Used
 •	- HTML
 •	- CSS
 •	- JavaScript
+
 📖 Changelog
 v1.0 — Initial Release
 •	- Added multi-page structure
@@ -45,8 +49,13 @@ v1.0 — Initial Release
 •	- Added reviews page
 •	- Added services cards
 •	- Added navigation on all pages
+
 🔗 GitHub Repository
 [https://github.com/YourGitHubUsername/wells-walkies](https://github.com/RuthWells-RC/wells-walkies/tree/main)
+
+
+
+
 🖼 Images Used in the POE
 Image: https://github.com/user-attachments/assets/7ed21fbe-113e-4862-9638-f8b9b79350f2
 Image: https://github.com/user-attachments/assets/80629134-7fb0-4333-81e7-6d9289963afc
