@@ -61,8 +61,4 @@ Each page has its own HTML file and is fully linked using a navigation bar.
 - Added services cards
 - Added navigation on all pages
 
----
 
-# README (WORD VERSION)
-
-This document contains the same content as the GitHub README formatted for Word.
